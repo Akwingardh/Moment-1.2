@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilder</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+
+</head>
+<body>
+
+    <header id="header-div">
+
+        <nav id="nav-div">
+
+            <div id="hamburger">
+                <div class="line1 lines"> </div>
+                <div class="line2 lines"> </div>
+                <div class="line2 lines"> </div>
+            </div>
+
+            <div id="list-div">
+                <ul id="nav-list">
+                    <li><a href="index.html">Start</a></li>
+                    <li><a href="page2.html">Bilder</a></li>
+                    <li><a href="page3.html">Arbetsprocess</a></li>
+                  </ul>
+            </div> 
+
+        </nav>
+
+    </header>
+
+    <main id="main-div">
+
+        <section id="section-div">
+            <h1 id="body-heading">Bilder</h1>
+            <div id="pictures">
+                <picture>
+                    <source srcset="bilder/bild1.jpg?as=avif&width=800" type="image/avif" />
+                    <source srcset="bilder/bild1.jpg?as=webp&width=800" type="image/webp" />
+                    <source srcset="bilder/bild1.jpg?width=800" type="image/jpeg" />
+                    <img src="bilder/bild1.jpg?width=200" alt="test image" />
+                </picture>
+                <picture>
+                    <source srcset="bilder/bild2.jpg?as=avif&width=800" type="image/avif" />
+                    <source srcset="bilder/bild2.jpg?as=webp&width=800" type="image/webp" />
+                    <source srcset="bilder/bild2.jpg?width=800" type="image/jpeg" />
+                    <img src="bilder/bild2.jpg?width=200" alt="test image" />
+                </picture>
+                <picture>
+                    <source srcset="bilder/bild3.jpg?as=avif&width=800" type="image/avif" />
+                    <source srcset="bilder/bild3.jpg?as=webp&width=800" type="image/webp" />
+                    <source srcset="bilder/bild3.jpg?width=800" type="image/jpeg" />
+                    <img src="bilder/bild3.jpg?width=200" alt="test image" />
+                </picture>
+                <picture>
+                    <source srcset="bilder/bild4.jpg?as=avif&width=800" type="image/avif" />
+                    <source srcset="bilder/bild4.jpg?as=webp&width=800" type="image/webp" />
+                    <source srcset="bilder/bild4.jpg?width=800" type="image/jpeg" />
+                    <img src="bilder/bild4.jpg?width=200" alt="test image" />
+                </picture>
+                <picture>
+                    <source srcset="bilder/bild5.jpg?as=avif&width=800" type="image/avif" />
+                    <source srcset="bilder/bild5.jpg?as=webp&width=800" type="image/webp" />
+                    <source srcset="bilder/bild5.jpg?width=800" type="image/jpeg" />
+                    <img src="bilder/bild5.jpg?width=200" alt="test image" />
+                </picture>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer-div">
+        <p id="footer-name">Anna Wingårdh</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
